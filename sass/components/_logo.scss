@@ -8,8 +8,7 @@
   &__part {
     color: var(--accent-color);
   }
-}
-
-.logo-footer {
-  color: var(--logo-white-color);
+  &-footer {
+    color: var(--logo-white-color);
+  }
 }

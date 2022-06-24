@@ -66,11 +66,16 @@
     color: var(--primary-bg-color);
     background-color: rgba(33, 150, 243, 0.9);
     transition: opacity var(--transition), transform var(--transition);
+    .project__link:hover &,
+    .project__link:focus & {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }
 
-.project__link:hover .project__overlay,
-.project__link:focus .project__overlay {
-  transform: translateY(0);
-  opacity: 1;
-}
+// .project__link:hover .project__overlay,
+// .project__link:focus .project__overlay {
+//   transform: translateY(0);
+//   opacity: 1;
+// }
